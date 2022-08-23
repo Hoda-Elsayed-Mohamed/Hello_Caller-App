@@ -741,7 +741,7 @@ a.log-btn:active {
 
 .animated-cards2 {
   display: flex;
-  /* direction: rtl; */
+  direction: rtl;
   align-self: flex-end;
   justify-content: center;
   animation: toRight 15s linear infinite;
@@ -754,9 +754,9 @@ a.log-btn:active {
 .animated-cards2:hover {
   animation-play-state: paused;
 }
-/* .showMe{
+.showMe{
   display: none;
-} */
+}
 
 .animated-cards1 .review_card,
 .animated-cards2 .review_card {
