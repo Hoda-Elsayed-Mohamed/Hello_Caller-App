@@ -1188,7 +1188,7 @@ hr {
     line-height: 40px;
   }
   .iti__flag-container .iti__selected-flag {
-    padding: 18px 5px;
+    padding: 18px 10px;
   }
 
   .search-bar input#phone {
@@ -1874,7 +1874,7 @@ hr {
 input#phone, input#hide {
   
   background: unset;
-  padding: 15px;
+  padding: 10px;
   margin: 15px;
   width: 100%;
 }
