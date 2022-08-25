@@ -562,7 +562,7 @@ a.log-btn:active {
   left: 20%;
   position: absolute;
   align-items: center !important;
-  justify-self: center;
+  justify-content: center;
   background: #fb5b29;
   border-radius: 76px;
 }
@@ -637,7 +637,7 @@ a.log-btn:active {
 }
 
 .reviews-container .reviews {
-  /* overflow: hidden; */
+  overflow: hidden;
   max-width: 1600px;
   margin: auto;
   padding-bottom: 160px;
@@ -1111,6 +1111,7 @@ hr {
     font-size: 12px;
   }
   .blue .recommended {
+
     padding: 1px 15px;
     top: -4%;
     left: 17%;
@@ -1119,7 +1120,7 @@ hr {
     padding-left: 5px;
     font-size: 10px;
   }
-  .blue .recommended img {
+  .blue .recommended svg {
     width: 13%;
   }
 
@@ -1534,6 +1535,9 @@ hr {
   .blue .recommended span {
     font-size: 0.8em;
   }
+  .blue .recommended svg {
+    width: unset;
+}
   .plan-cards {
     flex-direction: column;
     padding: 0;
@@ -1852,6 +1856,7 @@ hr {
   .iti__flag-container{
     padding: 7px;
   }
+  
 }
 @media screen and (max-width: 425px) {
   .animated-cards1 .review_card, .animated-cards2 .review_card{
