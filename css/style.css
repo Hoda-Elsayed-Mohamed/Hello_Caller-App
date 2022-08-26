@@ -637,7 +637,7 @@ a.log-btn:active {
 }
 
 .reviews-container .reviews {
-  overflow: hidden;
+  /* overflow: hidden; */
   max-width: 1600px;
   margin: auto;
   padding-bottom: 160px;
@@ -1326,11 +1326,14 @@ hr {
   .nav-logo img {
     max-width: 20%;
   }
+  .upper_part a, .upper_part p{
+    font-size: 15px;
+  }
   .find h5,
   .contact_info h5,
   .upper_part h5 {
     margin-bottom: 8%;
-    font-size: 80%;
+    font-size: 15px;
   }
   .useful_links li {
     margin: 0;
@@ -1716,6 +1719,7 @@ hr {
     content: "© 2022 Hello? Caller ID";
     display: block;
     margin-top: 1em;
+    font-size: 15px;
   }
   /* .social_icons .lang_toggle {
     margin: 1em;
